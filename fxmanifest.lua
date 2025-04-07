@@ -6,9 +6,9 @@ description 'Custom Blips'
 version '1.1.0'
 
 files({
-	"blips/blips.lua",
+	"blips.lua",
 })
 
-client_script 'blips/blips.lua'
-server_script 'server/server.lua'
+client_script 'blips.lua'
+server_script 'server.lua'
 shared_script 'config.lua'
